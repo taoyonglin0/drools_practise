@@ -1,8 +1,8 @@
-package com.rules.basis;
+package com.rules.attribute;
 
-import com.rules.basis.pojo.Customer;
-import com.rules.basis.pojo.Order;
-import com.rules.basis.pojo.Person;
+import com.rules.attribute.pojo.Customer;
+import com.rules.attribute.pojo.Order;
+import com.rules.attribute.pojo.Person;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;

@@ -1,7 +1,7 @@
 package rules.mycontains
-import com.rules.attribute.pojo.School;
-import com.rules.attribute.pojo.Order;
-import com.rules.attribute.pojo.Person;
+import com.rules.basis.pojo.School;
+import com.rules.basis.pojo.Order;
+import com.rules.basis.pojo.Person;
 //约束连接 &&(and) ||(or) ,(and) 其中&& > || 在6.4 版本及以前，","不能和&&或||共同使用，7.10之后可以使用
 //比较操作符 > < == != >= <= 与java一致 6种Drools特有的如下
 //contains 和 not contains Fact对象的属性值是否包含一个指定对象的属性值 语法格式Object(field[Collection/Array] contains/not contains value)

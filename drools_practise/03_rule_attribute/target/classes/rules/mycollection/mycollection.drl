@@ -1,5 +1,5 @@
 package rules.mycollection;
-import com.rules.attribute.pojo.School;
+import com.rules.basis.pojo.School;
 import java.util.Map;
 
 rule "my_collection01"

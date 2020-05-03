@@ -1,0 +1,40 @@
+package rules.attribute;
+import com.rules.attribute.pojo.Person;
+
+/*
+默认值:0
+类型：Integer
+说明:
+   规则体被执行的顺序，每一个规则都有一个默认的执行顺序，如果不设置salience属性，规则体的执行顺序为由上到下
+   值范围:可以为整数，也可以为负数，值越大，执行顺序越高，排名越靠前
+   Drools支持动态配置优先级
+*/
+
+rule "salience_001"
+    salience 3
+    when
+    then
+        System.out.println("【salience_001】salience 3 执行了");
+end
+
+rule "salience_002"
+    salience 7
+    when
+    then
+        System.out.println("【salience_002】salience 7 执行了");
+end
+
+rule "salience_003"
+    salience -3
+    when
+    then
+        System.out.println("【salience_003】salience -3 执行了");
+end
+
+//动态salience测试
+rule "salience_004"
+    salience Math.random() * 10 + 1
+    when
+    then
+        System.out.println("【salience_004】salience 随机值 执行了");
+end

@@ -1,7 +1,7 @@
 package rules.hello
-import com.rules.attribute.pojo.Customer;
-import com.rules.attribute.pojo.Order;
-import com.rules.attribute.pojo.Person;
+import com.rules.basis.pojo.Customer;
+import com.rules.basis.pojo.Order;
+import com.rules.basis.pojo.Person;
     rule "rule1"
         when
             $customer:Customer(age>20,gender=='male')

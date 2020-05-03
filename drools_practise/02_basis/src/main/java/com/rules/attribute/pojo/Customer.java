@@ -1,4 +1,4 @@
-package com.rules.basis.pojo;
+package com.rules.attribute.pojo;
 
 import lombok.Data;
 import lombok.ToString;

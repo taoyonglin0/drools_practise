@@ -1,7 +1,7 @@
-package com.rules.basis;
+package com.rules.attribute;
 
-import com.rules.basis.pojo.Person;
-import com.rules.basis.pojo.School;
+import com.rules.attribute.pojo.Person;
+import com.rules.attribute.pojo.School;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;

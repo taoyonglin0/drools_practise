@@ -1,0 +1,8 @@
+package rules.attribute;
+import com.rules.attribute.pojo.Person;
+
+/*
+默认值:N/A
+类型：String
+说明:分为rule、group、和group 三个部分，分别代表规则，流程、分组，即常说的规则流。
+*/

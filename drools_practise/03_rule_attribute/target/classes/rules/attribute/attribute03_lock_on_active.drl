@@ -1,0 +1,32 @@
+package rules.attribute;
+import com.rules.attribute.pojo.Person;
+
+/*
+默认值:false
+类型：Boolean
+说明:
+   锁定活跃
+   值为true时：当前规则只会被触发一次，只有rule-ruleflow-group活着agenda-ruleflow-group被再次激活时，即使在规则体中设置了lock-on-active为
+            true,该规则也不能再次被激活，即无论如何更新规则事实对象，当前规则也只能被触发一次。
+   no-loop升级版，更强大的解决死循环的属性
+*/
+
+rule "lock_on_active_001"
+    lock-on-active true
+    when
+        $person:Person(age == 30)
+    then
+        $person.setAge(30);
+        update($person);
+        System.out.println("【lock_on_active_001】设置lock-on-active true的效果");
+end
+
+rule "lock_on_active_002"
+    lock-on-active true
+    when
+        $person:Person(age == 30)
+    then
+        $person.setAge(30);
+        update($person);
+        System.out.println("【lock_on_active_002】设置lock-on-active true的效果");
+end

@@ -16,6 +16,7 @@
     <modules>
         <module>01_getting_started</module>
         <module>02_basis</module>
+        <module>03_rule_attribute</module>
     </modules>
 
     <properties>
