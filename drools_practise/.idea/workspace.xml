@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f66a2bbe-7b33-4922-849e-558a5ab5ba01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rules/hello/RulesHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rules/hello/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_getting_started/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rules/hello/hello.drl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rules/hello/hello.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rules/hello/RulesHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_getting_started/src/main/java/com/hello/RulesHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rules/hello/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_getting_started/src/main/java/com/hello/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_getting_started/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01_getting_started/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rules/hello/hello.drl" beforeDir="false" afterPath="$PROJECT_DIR$/01_getting_started/src/main/resources/rules/hello/hello.drl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/potool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/potool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/src/main/java/io/sarvika/potool/bean2xml/DataBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/src/main/java/io/sarvika/potool/bean2xml/DataBean.java" afterDir="false" />
@@ -79,9 +80,31 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
-    <configuration name="RulesHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01_getting_started/src/main/resources/rules" />
+      <recent name="$PROJECT_DIR$/01_getting_started/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RulesHello (1)">
+    <configuration name="RulesHello (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rules.hello.RulesHello" />
+      <module name="01_getting_started" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rules.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RulesHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hello.RulesHello" />
       <module name="drools_practise" />
       <extension name="coverage">
         <pattern>
@@ -95,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RulesHello (1)" />
         <item itemvalue="Application.RulesHello" />
       </list>
     </recent_temporary>
@@ -112,7 +136,8 @@
       <workItem from="1588497430946" duration="1278000" />
       <workItem from="1588499462941" duration="1332000" />
       <workItem from="1588500993758" duration="2087000" />
-      <workItem from="1588507112303" duration="1046000" />
+      <workItem from="1588507112303" duration="1712000" />
+      <workItem from="1588509075923" duration="601000" />
     </task>
     <servers />
   </component>
@@ -120,42 +145,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="233" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588509154107">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="233" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1588509154107" />
     <state x="356" y="123" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1588501978974">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="356" y="123" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1588501978974" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1588508319795">
+    <state x="308" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588509732272">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588508319795" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1588508319793">
+    <state x="308" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1588509732272" />
+    <state x="489" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588509156385">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588508319793" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1588508319792">
+    <state x="489" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1588509156385" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1588508441825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588508319792" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1588508319794">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588508441825" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1588508441823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588508319794" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588508319435">
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588508441823" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1588508441822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588508319435" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1588508319431">
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588508441822" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1588508441824">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588508319431" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1588508319431">
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588508441824" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588508441826">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588508319431" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1588508319432">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588508441826" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1588508441826">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588508319432" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588508441826" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1588508441825">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588508441825" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1588508441826">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588508441826" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1588498844286">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -164,6 +201,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="386" y="207" width="667" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588499510137" />
+    <state x="114" y="147" key="new project wizard" timestamp="1588509134105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="114" y="147" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1588509134105" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588498850686">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
