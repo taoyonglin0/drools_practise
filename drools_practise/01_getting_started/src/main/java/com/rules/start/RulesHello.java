@@ -1,6 +1,6 @@
-package com.rules.hello;
+package com.rules.start;
 
-import com.rules.hello.pojo.Person;
+import com.rules.start.pojo.Person;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;

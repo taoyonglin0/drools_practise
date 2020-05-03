@@ -1,5 +1,5 @@
 package rules.hello
-import com.rules.hello.pojo.Person;
+import com.rules.basis.pojo.Person;
     rule "test001"
         when
             eval(true)

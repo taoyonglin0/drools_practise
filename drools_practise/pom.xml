@@ -15,6 +15,7 @@
     <!--模块说明：这里声明多个模块-->
     <modules>
         <module>01_getting_started</module>
+        <module>02_basis</module>
     </modules>
 
     <properties>

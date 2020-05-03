@@ -1,0 +1,84 @@
+package rules.mycontains
+import com.rules.basis.pojo.School;
+import com.rules.basis.pojo.Order;
+import com.rules.basis.pojo.Person;
+//约束连接 &&(and) ||(or) ,(and) 其中&& > || 在6.4 版本及以前，","不能和&&或||共同使用，7.10之后可以使用
+//比较操作符 > < == != >= <= 与java一致 6种Drools特有的如下
+//contains 和 not contains Fact对象的属性值是否包含一个指定对象的属性值 语法格式Object(field[Collection/Array] contains/not contains value)
+//member of 和 not member of Object(field member|not member of value[Collection/Array])
+//matches 和 not metches  matches java正则表达式匹配 语法格式Object(fieldName matches|not matches "正则表达式")
+//soundslike 英语发音类似的比较
+//str 字符串比较符，以什么开头，以什么结尾，长度之类的 Object(fieldName startsWith|endsWith|length "字符串")
+//一个学校多个班级，多个学生匹配班级
+    rule "compare_rule1"
+        when
+            $person:Person()
+            $school:School(classNameList contains $person.className)
+        then
+            System.out.println(String.format("【规则一】恭喜你，成功地使用了contains,成功学生为%s",$person));
+    end
+//    多个学生对象，其中学校相同的
+    rule "compare_rule2"
+        when
+            $school:School()
+            $person:Person(schoolName contains $school.name)
+        then
+            System.out.println(String.format("【规则二】单个String类型属性contains执行,成功学生为%s",$person));
+    end
+//    not contains
+    rule "compare_rule3"
+        when
+            $school:School()
+            $person:Person(schoolName not contains $school.name)
+        then
+            System.out.println(String.format("【规则三】学生%s的学校不是%s",$person,$school.getName()));
+            $person.setSchoolName($school.getName());
+            update($school);
+            System.out.println(String.format("【规则三】学生%s的学校已经转学到%s",$person,$school.getName()));
+    end
+//    memberOf
+    rule "compare_rule4"
+        when
+            $school:School()
+            $person:Person(className not memberOf $school.getClassNameList())
+        then
+            System.out.println(String.format("【规则四】学生%s的班级不在学校%s的班级中",$person,$school));
+            $person.setClassName($school.getClassNameList().get(0));
+            update($school);
+            System.out.println(String.format("【规则四】学生%s的班级调整到学校%s的班级中",$person,$school));
+    end
+// matches java正则表达式匹配 语法格式Object(fieldName matches|not matches "正则表达式") 注意不可以使用*.三
+    rule "compare_rule5"
+        when
+            $person:Person(name matches "张.*")
+        then
+            System.out.println(String.format("【规则五】姓张的同学找到了，具体信息:%s",$person));
+    end
+// matches java正则表达式匹配 语法格式Object(fieldName matches|not matches "正则表达式") 注意不可以使用*.三
+//    rule "compare_rule6"
+//        when
+//            $person:Person(name matches "*.三")
+//        then
+//            System.out.println(String.format("【规则五】姓名结尾为三的的同学找到了，具体信息:%s",$person));
+//    end
+
+// matches java正则表达式匹配 语法格式Object(fieldName matches|not matches "正则表达式") 注意不可以使用*.三,可以使用str实现
+//$只会匹配一次，写成$$也不会报错，**则会报语法错误
+    rule "compare_rule6"
+        when
+            $person:Person(name matches "张.$")
+        then
+            System.out.println(String.format("【规则六】姓张的同学找到了，具体信息:%s",$person));
+    end
+//    rule "compare_rule7"
+//        when
+//            $person:Person(name matches "张.**")
+//        then
+//            System.out.println(String.format("【规则六】姓张的同学找到了，具体信息:%s",$person));
+//    end
+    rule "compare_rule8"
+        when
+            $person:Person(name str[endsWith] "三" || str[endsWith] "四")
+        then
+            System.out.println(String.format("【规则八】姓名结尾为三或者说四的的同学找到了，具体信息:%s",$person));
+    end

@@ -1,4 +1,4 @@
-package com.rules.hello.pojo;
+package com.rules.start.pojo;
 
 import lombok.Data;
 import lombok.ToString;
