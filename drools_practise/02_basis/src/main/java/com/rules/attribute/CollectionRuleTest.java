@@ -7,6 +7,7 @@ import org.kie.api.runtime.KieSession;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class CollectionRuleTest {
@@ -43,6 +44,11 @@ public class CollectionRuleTest {
 
         collectionsSession.insert(school);
         collectionsSession.insert(school2);
+        List<School> schoolList = new ArrayList<School>();
+        schoolList.add(school);
+        schoolList.add(school2);
+        collectionsSession.insert(schoolList);
+        collectionsSession.insert(classNameList);
 
 
         int count = collectionsSession.fireAllRules();

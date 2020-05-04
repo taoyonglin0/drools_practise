@@ -2,52 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f66a2bbe-7b33-4922-849e-558a5ab5ba01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute/CommonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute/pojo/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute/pojo/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute01.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute01_no_loop.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute02_rule_flow_group.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute03_lock_on_active.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute03_salience.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/02_basis-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/META-INF/02_basis.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/META-INF/kmodule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/com/rules/basis/CollectionRuleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/com/rules/basis/CompareTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/com/rules/basis/RulesHello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/com/rules/basis/pojo/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/com/rules/basis/pojo/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/com/rules/basis/pojo/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/com/rules/basis/pojo/School.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/basis/basis.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/mycollection/mycollection.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/mycontains/compare.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_rule_attribute/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_getting_started/src/main/resources/rules/hello/hello.drl" beforeDir="false" afterPath="$PROJECT_DIR$/01_getting_started/src/main/resources/rules/hello/hello.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/basis/CollectionRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/CollectionRuleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/basis/CompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/CompareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/basis/RulesHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/RulesHello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/basis/pojo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/pojo/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/basis/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/basis/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/pojo/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/basis/pojo/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/pojo/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/resources/rules/basis/basis.drl" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/resources/rules/basis/basis.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/CollectionRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/CollectionRuleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_basis/src/main/resources/rules/mycollection/mycollection.drl" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/resources/rules/mycollection/mycollection.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/resources/rules/mycontains/compare.drl" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/resources/rules/mycontains/compare.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/potool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/potool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/src/main/java/io/sarvika/potool/bean2xml/DataBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/src/main/java/io/sarvika/potool/bean2xml/DataBean.java" afterDir="false" />
@@ -138,7 +95,7 @@
       <recent name="$PROJECT_DIR$/01_getting_started/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommonTest">
+  <component name="RunManager" selected="Application.CollectionRuleTest">
     <configuration name="CollectionRuleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rules.attribute.CollectionRuleTest" />
       <module name="02_basis" />
@@ -220,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CommonTest" />
         <item itemvalue="Application.CollectionRuleTest" />
+        <item itemvalue="Application.CommonTest" />
         <item itemvalue="Application.CompareTest" />
         <item itemvalue="Application.RulesHello (2)" />
         <item itemvalue="JUnit.rules.mycontains in 02_basis" />
@@ -248,7 +205,9 @@
       <workItem from="1588515288705" duration="1735000" />
       <workItem from="1588517112504" duration="1744000" />
       <workItem from="1588518987538" duration="1758000" />
-      <workItem from="1588520802711" duration="1615000" />
+      <workItem from="1588520802711" duration="1714000" />
+      <workItem from="1588558758460" duration="147000" />
+      <workItem from="1588579967558" duration="522000" />
     </task>
     <servers />
   </component>
@@ -284,42 +243,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="504" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1588518704655" />
-    <state width="1398" height="585" key="GridCell.Tab.0.bottom" timestamp="1588522455842">
+    <state width="1398" height="585" key="GridCell.Tab.0.bottom" timestamp="1588580499917">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588522455842" />
-    <state width="1398" height="454" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1588513800303" />
-    <state width="1398" height="585" key="GridCell.Tab.0.center" timestamp="1588522455840">
+    <state width="1398" height="585" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588580499917" />
+    <state width="1398" height="585" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1588558793606" />
+    <state width="1398" height="585" key="GridCell.Tab.0.center" timestamp="1588580499915">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588522455840" />
-    <state width="1398" height="454" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1588513800302" />
-    <state width="1398" height="585" key="GridCell.Tab.0.left" timestamp="1588522455839">
+    <state width="1398" height="585" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588580499915" />
+    <state width="1398" height="585" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1588558793605" />
+    <state width="1398" height="585" key="GridCell.Tab.0.left" timestamp="1588580499914">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588522455839" />
-    <state width="1398" height="454" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1588513800300" />
-    <state width="1398" height="585" key="GridCell.Tab.0.right" timestamp="1588522455841">
+    <state width="1398" height="585" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588580499914" />
+    <state width="1398" height="585" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1588558793604" />
+    <state width="1398" height="585" key="GridCell.Tab.0.right" timestamp="1588580499916">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588522455841" />
-    <state width="1398" height="454" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1588513800302" />
-    <state width="1398" height="585" key="GridCell.Tab.1.bottom" timestamp="1588522455844">
+    <state width="1398" height="585" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588580499916" />
+    <state width="1398" height="585" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1588558793605" />
+    <state width="1398" height="585" key="GridCell.Tab.1.bottom" timestamp="1588580499919">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588522455844" />
-    <state width="1398" height="585" key="GridCell.Tab.1.center" timestamp="1588522455843">
+    <state width="1398" height="585" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588580499919" />
+    <state width="1398" height="585" key="GridCell.Tab.1.bottom/47.23.1393.877@47.23.1393.877" timestamp="1588522586050" />
+    <state width="1398" height="585" key="GridCell.Tab.1.center" timestamp="1588580499918">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588522455843" />
-    <state width="1398" height="585" key="GridCell.Tab.1.left" timestamp="1588522455842">
+    <state width="1398" height="585" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588580499918" />
+    <state width="1398" height="585" key="GridCell.Tab.1.center/47.23.1393.877@47.23.1393.877" timestamp="1588522586050" />
+    <state width="1398" height="585" key="GridCell.Tab.1.left" timestamp="1588580499917">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588522455842" />
-    <state width="1398" height="585" key="GridCell.Tab.1.right" timestamp="1588522455844">
+    <state width="1398" height="585" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588580499917" />
+    <state width="1398" height="585" key="GridCell.Tab.1.left/47.23.1393.877@47.23.1393.877" timestamp="1588522586049" />
+    <state width="1398" height="585" key="GridCell.Tab.1.right" timestamp="1588580499919">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588522455844" />
+    <state width="1398" height="585" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588580499919" />
+    <state width="1398" height="585" key="GridCell.Tab.1.right/47.23.1393.877@47.23.1393.877" timestamp="1588522586050" />
     <state x="412" y="168" key="RollbackChangesDialog" timestamp="1588515372452">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -1,6 +1,7 @@
 package rules.mycollection;
 import com.rules.attribute.pojo.School;
 import java.util.Map;
+import java.util.List;
 
 rule "my_collection01"
     when
@@ -29,3 +30,19 @@ rule "my_collection04"
     then
         System.out.println(String.format("【my_collection04】Map中key测试学校一对应的value是%s",$map.get("测试学校一")));
 end;
+//遍历List中的元素 匹配List中的元素，然后获取其中每个元素执行RHS操作
+rule "my_collection05"
+    when
+        $li:List(size() > 0);
+        $element:School() from $li;
+    then
+        System.out.println(String.format("【my_collection05】List中每个元素是%s",$element));
+end
+//遍历List中的元素 匹配List中的元素，然后获取其中每个元素执行RHS操作
+rule "my_collection06"
+    when
+        $li:List(size() > 0);
+        $element:Object() from $li;
+    then
+        System.out.println(String.format("【my_collection06】List中每个元素是%s",$element));
+end
