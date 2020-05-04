@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f66a2bbe-7b33-4922-849e-558a5ab5ba01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute/AgendaGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute/DateFormatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/agendagroup/11_agenda-group.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/agendagroup/12_auto-focus.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/05_enabled.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/06_dialect.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/07_date_effective.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/08_date_expires.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/09_duration.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/10_activation_group.drl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/dateformat/08_date_expires_1.drl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/CollectionRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/java/com/rules/attribute/CollectionRuleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_basis/src/main/resources/rules/mycollection/mycollection.drl" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/src/main/resources/rules/mycollection/mycollection.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_basis/target/classes/com/rules/attribute/CollectionRuleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/02_basis/target/classes/com/rules/attribute/CollectionRuleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/META-INF/kmodule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute01.drl" beforeDir="false" afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/00_common.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute01_no_loop.drl" beforeDir="false" afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/01_no_loop.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute02_rule_flow_group.drl" beforeDir="false" afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/02_rule_flow_group.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute03_lock_on_active.drl" beforeDir="false" afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/03_lock_on_active.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/attribute03_salience.drl" beforeDir="false" afterPath="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute/04_salience.drl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/target/classes/META-INF/kmodule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_rule_attribute/target/classes/META-INF/kmodule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/attribute/attribute01.drl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/attribute/attribute01_no_loop.drl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/attribute/attribute02_rule_flow_group.drl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/attribute/attribute03_lock_on_active.drl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_rule_attribute/target/classes/rules/attribute/attribute03_salience.drl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/potool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/potool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../punchouttool/src/main/java/io/sarvika/potool/bean2xml/DataBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../punchouttool/src/main/java/io/sarvika/potool/bean2xml/DataBean.java" afterDir="false" />
@@ -70,32 +92,48 @@
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/03_rule_attribute/src/main/java/com/rules/attribute" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/agendagroup" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/agendagroup" />
+      <recent name="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/dateformat" />
+      <recent name="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules" />
+      <recent name="$PROJECT_DIR$/02_basis/src/main/resources/rules/contains" />
+      <recent name="$PROJECT_DIR$/02_basis/src/main/resources/rules" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rules.attribute" />
+      <recent name="com.rules.hello.pojo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/agendagroup" />
       <recent name="$PROJECT_DIR$/03_rule_attribute/src/main/resources/rules/attribute" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/02_basis/src/main/resources/rules/hello" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.rules.hello.pojo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/02_basis/src/main/resources/rules/contains" />
-      <recent name="$PROJECT_DIR$/02_basis/src/main/resources/rules" />
-      <recent name="$PROJECT_DIR$/01_getting_started/src/main/resources/rules" />
-      <recent name="$PROJECT_DIR$/01_getting_started/src/main/resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionRuleTest">
+  <component name="RunManager" selected="Application.AgendaGroupTest">
+    <configuration name="AgendaGroupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rules.attribute.AgendaGroupTest" />
+      <module name="03_rule_attribute" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rules.attribute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CollectionRuleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rules.attribute.CollectionRuleTest" />
       <module name="02_basis" />
@@ -135,53 +173,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RulesHello (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rules.hello.RulesHello" />
-      <module name="02_basis" />
+    <configuration name="DateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rules.attribute.DateFormatTest" />
+      <module name="03_rule_attribute" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rules.hello.*" />
+          <option name="PATTERN" value="com.rules.attribute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RulesHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rules.basis.RulesHello" />
-      <module name="02_basis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rules.basis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="rules.mycontains in 02_basis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="02_basis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rules.mycontains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rules.mycontains" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionRuleTest" />
+        <item itemvalue="Application.AgendaGroupTest" />
         <item itemvalue="Application.CommonTest" />
+        <item itemvalue="Application.DateFormatTest" />
+        <item itemvalue="Application.CollectionRuleTest" />
         <item itemvalue="Application.CompareTest" />
-        <item itemvalue="Application.RulesHello (2)" />
-        <item itemvalue="JUnit.rules.mycontains in 02_basis" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +218,12 @@
       <workItem from="1588518987538" duration="1758000" />
       <workItem from="1588520802711" duration="1714000" />
       <workItem from="1588558758460" duration="147000" />
-      <workItem from="1588579967558" duration="522000" />
+      <workItem from="1588579967558" duration="1746000" />
+      <workItem from="1588581812887" duration="1155000" />
+      <workItem from="1588603986233" duration="1768000" />
+      <workItem from="1588605855585" duration="1768000" />
+      <workItem from="1588607670389" duration="1433000" />
+      <workItem from="1588609503141" duration="854000" />
     </task>
     <servers />
   </component>
@@ -243,46 +259,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="504" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1588518704655" />
-    <state width="1398" height="585" key="GridCell.Tab.0.bottom" timestamp="1588580499917">
+    <state width="1398" height="497" key="GridCell.Tab.0.bottom" timestamp="1588610264215">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588580499917" />
-    <state width="1398" height="585" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1588558793606" />
-    <state width="1398" height="585" key="GridCell.Tab.0.center" timestamp="1588580499915">
+    <state width="1398" height="497" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588610264215" />
+    <state width="1398" height="497" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1588581915462" />
+    <state width="1398" height="497" key="GridCell.Tab.0.center" timestamp="1588610264214">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588580499915" />
-    <state width="1398" height="585" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1588558793605" />
-    <state width="1398" height="585" key="GridCell.Tab.0.left" timestamp="1588580499914">
+    <state width="1398" height="497" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588610264214" />
+    <state width="1398" height="497" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1588581915461" />
+    <state width="1398" height="497" key="GridCell.Tab.0.left" timestamp="1588610264213">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588580499914" />
-    <state width="1398" height="585" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1588558793604" />
-    <state width="1398" height="585" key="GridCell.Tab.0.right" timestamp="1588580499916">
+    <state width="1398" height="497" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588610264213" />
+    <state width="1398" height="497" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1588581915460" />
+    <state width="1398" height="497" key="GridCell.Tab.0.right" timestamp="1588610264214">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588580499916" />
-    <state width="1398" height="585" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1588558793605" />
-    <state width="1398" height="585" key="GridCell.Tab.1.bottom" timestamp="1588580499919">
+    <state width="1398" height="497" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588610264214" />
+    <state width="1398" height="497" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1588581915461" />
+    <state width="1398" height="497" key="GridCell.Tab.1.bottom" timestamp="1588610264061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588580499919" />
-    <state width="1398" height="585" key="GridCell.Tab.1.bottom/47.23.1393.877@47.23.1393.877" timestamp="1588522586050" />
-    <state width="1398" height="585" key="GridCell.Tab.1.center" timestamp="1588580499918">
+    <state width="1398" height="497" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588610264061" />
+    <state width="1398" height="497" key="GridCell.Tab.1.bottom/47.23.1393.877@47.23.1393.877" timestamp="1588581915282" />
+    <state width="1398" height="497" key="GridCell.Tab.1.center" timestamp="1588610264060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588580499918" />
-    <state width="1398" height="585" key="GridCell.Tab.1.center/47.23.1393.877@47.23.1393.877" timestamp="1588522586050" />
-    <state width="1398" height="585" key="GridCell.Tab.1.left" timestamp="1588580499917">
+    <state width="1398" height="497" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588610264060" />
+    <state width="1398" height="497" key="GridCell.Tab.1.center/47.23.1393.877@47.23.1393.877" timestamp="1588581915281" />
+    <state width="1398" height="497" key="GridCell.Tab.1.left" timestamp="1588610264060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588580499917" />
-    <state width="1398" height="585" key="GridCell.Tab.1.left/47.23.1393.877@47.23.1393.877" timestamp="1588522586049" />
-    <state width="1398" height="585" key="GridCell.Tab.1.right" timestamp="1588580499919">
+    <state width="1398" height="497" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588610264060" />
+    <state width="1398" height="497" key="GridCell.Tab.1.left/47.23.1393.877@47.23.1393.877" timestamp="1588581915280" />
+    <state width="1398" height="497" key="GridCell.Tab.1.right" timestamp="1588610264060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="585" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588580499919" />
-    <state width="1398" height="585" key="GridCell.Tab.1.right/47.23.1393.877@47.23.1393.877" timestamp="1588522586050" />
+    <state width="1398" height="497" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588610264060" />
+    <state width="1398" height="497" key="GridCell.Tab.1.right/47.23.1393.877@47.23.1393.877" timestamp="1588581915281" />
     <state x="412" y="168" key="RollbackChangesDialog" timestamp="1588515372452">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -295,10 +311,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="515" y="235" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1588519697071" />
-    <state x="386" y="207" width="667" height="486" key="find.popup" timestamp="1588499510137">
+    <state x="386" y="207" width="667" height="486" key="find.popup" timestamp="1588606095044">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="386" y="207" width="667" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588499510137" />
+    <state x="386" y="207" width="667" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588606095044" />
     <state x="114" y="147" key="new project wizard" timestamp="1588509134105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

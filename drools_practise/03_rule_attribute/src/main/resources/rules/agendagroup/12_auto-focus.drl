@@ -1,0 +1,45 @@
+package rules.agendagroup;
+/*
+  auto-focus
+  default:false
+  type:Boolean
+  description: 自动获取焦点，即当前规则是否被激活。如果一个规则被执行，那么认为auto-auto-focus为true
+            如果单独设置，一般结合agenda-group。当一个议程组未获取焦点时候，可以设置auto-focus来控制
+
+  规则中配置auto-focus为ture，会默认激活所有该议程分组的规则，除非代码中将该议程分组设置为false
+*/
+rule "auto-focus_01"
+    agenda-group "af01"
+    auto-focus true
+    when
+        eval(true)
+    then
+     System.out.println("【auto-focus_01】agenda-group \"af01\"\n" +
+                                        "    auto-focus true 执行了");
+end
+
+rule "auto-focus_02"
+    agenda-group "af01"
+    when
+        eval(true)
+    then
+     System.out.println("【auto-focus_02】agenda-group \"af01\" 执行了");
+end
+
+rule "auto-focus_03"
+    agenda-group "af02"
+    when
+        eval(true)
+    then
+     System.out.println("【auto-focus_03】agenda-group \"af02\" 执行了");
+end
+
+rule "auto-focus_04"
+    agenda-group "af02"
+    auto-focus true
+    when
+        eval(true)
+    then
+     System.out.println("【auto-focus_04】agenda-group \"af02\"\n" +
+                                        "    auto-focus true 执行了");
+end

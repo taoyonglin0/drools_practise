@@ -1,0 +1,36 @@
+package rules.attribute;
+import java.util.Calendar
+import java.text.SimpleDateFormat
+import java.util.Date
+/*
+  date-date-effective
+  default:N/A
+  type:String、日期、时间
+  description: 当前系统时间 >= 设置时间 规则被激活，未设置时、不受时间的限制
+  语法规范: 默认可以接受的日期格式："dd-MM-yyyy"
+*/
+rule "date-date-effective_01"
+    date-effective "3-May-2020"
+    when
+        eval(true)
+    then
+        System.out.println(String.format("【date-date-effective_01】date-effective \"3-May-2020\" 执行了"));
+end
+
+rule "date-date-effective_02"
+    date-effective "5-May-2020"
+    when
+        eval(true)
+    then
+        System.out.println(String.format("【date-date-effective_02】date-effective \"5-May-2020\" 执行了"));
+end
+
+//其他格式执行报错，具体设置后续跟进
+/*
+rule "date-date-effective_03"
+    date-effective "2020-05-04 11:00:00"
+    when
+        eval(true)
+    then
+        System.out.println(String.format("【date-date-effective_03】date-effective \"2020-05-04 11:00:00\" 执行了"));
+end*/

@@ -3,5 +3,10 @@
     <kbase packages="rules.attribute">
         <ksession name="common_test"/>
     </kbase>
-
+    <kbase packages="rules.dateformat">
+        <ksession name="date_format_test"/>
+    </kbase>
+    <kbase packages="rules.agendagroup">
+        <ksession name="agenda-group_test"/>
+    </kbase>
 </kmodule>

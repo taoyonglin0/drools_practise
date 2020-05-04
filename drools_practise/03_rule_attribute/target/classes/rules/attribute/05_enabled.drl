@@ -1,0 +1,28 @@
+package rules.attribute;
+
+/*
+enabled属性
+default：true
+type: Boolean
+description: 规则是否可以被执行，设置为false时，将永久不会被执行
+*/
+
+rule "enabled_01"
+    when
+    then
+    System.out.println(String.format("[enabled_01]默认情况下，规则执行了"));
+end
+
+rule "enabled_02"
+    enabled true
+    when
+    then
+    System.out.println(String.format("[enabled_02]enabled true，规则执行了"));
+end
+
+rule "enabled_03"
+    enabled false
+    when
+    then
+    System.out.println(String.format("[enabled_03]enabled false，规则执行了"));
+end
