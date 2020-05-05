@@ -9,4 +9,7 @@
     <kbase packages="rules.agendagroup">
         <ksession name="agenda-group_test"/>
     </kbase>
+    <kbase name="kbase_timer_test" packages="rules.timertest">
+        <ksession name="timer_test"/>
+    </kbase>
 </kmodule>

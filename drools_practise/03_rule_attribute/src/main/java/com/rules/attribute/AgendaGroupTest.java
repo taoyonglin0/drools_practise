@@ -9,7 +9,7 @@ import org.kie.api.runtime.KieSession;
  */
 public class AgendaGroupTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         KieServices kieServices = KieServices.Factory.get();
         KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
         KieSession agendaGroupSession = kieClasspathContainer.newKieSession("agenda-group_test");
@@ -22,6 +22,7 @@ public class AgendaGroupTest {
 
 
         int count = agendaGroupSession.fireAllRules();
+        Thread.currentThread().sleep(10000);
         System.out.println(String.format("总共执行了%s条规则",count));
         agendaGroupSession.dispose();
     }

@@ -1,0 +1,57 @@
+package rules.timertest;
+
+
+/*
+timer:
+default:无
+type: 与Java定时器参数类型类似
+属性说明：timer属性是一个定时器，用来控制规则的执行时间，主要有两种写法
+    1、timer(int:<initial dealy> <repeat interval>?) demo：timer<int:30s>、timer<int:30s 5m>
+    2、timer(cron:<cron expression>) demo:timer(cron:* 0/15 * * * ?)
+
+除了以上配置，timer还可以定义时间区间，不过必须先进性声明
+    demo:timer(int 3s 10s; start=2020-05-05 13:55:00,end=2020-05-05 13:56:00)
+*/
+rule "timer_01"
+    timer(int:3s)
+    when
+         eval(true)
+    then
+        System.out.println("【timer_01】timer(int 3s) 规则执行了");
+end
+
+rule "timer_02"
+    timer(cron:0/1 * * * * ?)
+    when
+         eval(true)
+    then
+        System.out.println("【timer_02】timer(cron:0/1 * * * * ?) 规则执行了");
+end
+
+rule "timer_03"
+    timer(int:3s 30s)
+    when
+         eval(true)
+    then
+        System.out.println("【timer_03】timer(int 3s 30s) 规则执行了");
+end
+
+rule "timer_04"
+    timer(int:30s 10s;start=2020-05-05 14:05:00,end=2020-05-05 14:07:00)
+    when
+         eval(true)
+    then
+        System.out.println("【timer_04】timer(int:30s 10s;start=2020-05-05 14:05:00,end=2020-05-05 14:07:00)) 规则执行了");
+end
+
+declare Bean
+    delay : String = "30s"
+    period : long = 60000
+end
+rule "timer_05"
+    timer(expr: $d,$p)
+    when
+         Bean($d:delay,$p:period)
+    then
+        System.out.println("【timer_05】timer(int 3s 10s: $d,$p) 规则执行了");
+end
