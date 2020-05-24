@@ -1,8 +1,0 @@
-package rules.attribute;
-/*
-dialect
-value：Java or Mvel
-type: String
-description: 定义规则中要使用的语言，支持Mvel和Java两种语言类型。默认情况下由包指定，Java在特殊情况下会用到，如
-    Accumulate(规则体LHS中用到，很有用的计算方法)、引用Java的语法等
-*/
